@@ -1,0 +1,71 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.proyecto h3 {
+    color: #3498db;
+}
+
+#contacto {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Estilo de formulario de contacto */
+#contacto p {
+    margin-bottom: 10px;
+}
+
+/* Media Query para hacer el diseño responsivo */
+@media (max-width: 600px) {
+    header, section {
+        padding: 10px;
+    }
+}
